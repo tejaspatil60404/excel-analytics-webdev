@@ -14,5 +14,4 @@ urlpatterns = [
     path('<int:id>/', SurveyFormDetailView.as_view(), name='survey-detail'),
     path('<int:pk>/update/', SurveyFormUpdateView.as_view(), name='form-update'),
     path('<int:pk>/delete/', SurveyFormDeleteView.as_view(), name='form-delete'),
-
 ]
